@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 122px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    margin-left: 1rem;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    text-align: right;
+    
+
+}
+.imagemdefundo{
+    position: absolute;
+    width: 100%;
+}
+.boneco{
+    position: absolute;
+    width: 570px;
+    top: 58px;
+    margin-left: 35%;
+    z-index: 1;
+    background-position: center;
+
+}
+.logodois{
+    width: 500px;
+    top: 550px;
+    margin-left: 37%;
+    position: absolute;
+    z-index: 2;
+    
+}
+button{
+    border-radius: 15px;
+    height: 8vh;
+    width: 20%;
+    top: 680px;
+    margin-left: 47%;
+    color: white;
+    background-color: rgb(211, 38, 38);
+    font-size: 1rem;
+    position: relative;
+    z-index: 3;
+    border: none;
+}
+
+
+
+
+
